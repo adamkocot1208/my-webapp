@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#map {
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+}
