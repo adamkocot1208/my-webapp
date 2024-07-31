@@ -34,5 +34,9 @@ app.get('/forgotPassword', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/forgotPassword.html'));
 });
 
+app.get('/confirm', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/confirm.html'));
+});
+
 
 module.exports = app;
